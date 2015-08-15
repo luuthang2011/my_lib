@@ -1,0 +1,15 @@
+- cai xampp-win32-5.6.8-0-VC11
+- start service trong control
+- copy folder thuvienuet to xampp/htdocs
+- link: localhost/thuvienuet -> check id: thanglq_58, pass: 2912(login fall)
+- go /phpmyadmin
+- new -> databases : name: libs / collation: utf8_vn
+- import libs.sql
+- users -> change root@localhost password : thuvienuet
+- open xampp\phpMyAdmin\config.inc.php 
+change 
+$cfg['Servers'][$i]['auth_type'] = 'config';
+to
+$cfg['Servers'][$i]['auth_type'] = 'http';
+
+Hoan tat: link: localhost/thuvienuet
