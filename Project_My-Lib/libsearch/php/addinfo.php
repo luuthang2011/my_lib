@@ -28,10 +28,10 @@
             <tr>
                 <td><label>ESSAY'S MOJOR: </label></td>
                 <td><select name="faculty">
-                        <option <?php include 'showinfo.php'; if($key == 'C') echo "selected";?> value="C">CNTT</option>
-                        <option <?php include 'showinfo.php'; if($key == 'D') echo "selected";?> value="D">DTVT</option>
-                        <option <?php include 'showinfo.php'; if($key == 'V') echo "selected";?> value="V">VLKT</option>
-                        <option <?php include 'showinfo.php'; if($key == 'M') echo "selected";?> value="M">CDT</option>
+                        <option <?php include 'showinfo.php'; if($key == 'C' || $key == 'c') echo "selected";?> value="C">CNTT</option>
+                        <option <?php include 'showinfo.php'; if($key == 'D' || $key == 'd') echo "selected";?> value="D">DTVT</option>
+                        <option <?php include 'showinfo.php'; if($key == 'V' || $key == 'v') echo "selected";?> value="V">VLKT</option>
+                        <option <?php include 'showinfo.php'; if($key == 'M' || $key == 'm') echo "selected";?> value="M">CDT</option>
                     </select>
                 </td>
             </tr>
