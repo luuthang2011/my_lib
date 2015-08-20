@@ -23,6 +23,11 @@
     </section>
     <footer id="footer"></footer>
 </section>
+<footer id="info">
+    <p>Hopefully people will get the desired result !!</p>
+    <p>Edit by Libary of UET </a></p>
+    <p>Copy from TodoMVC 2015</a></p>
+</footer>
 
 <script src="libs/jquery.js"></script>
 <script src="libs/myjs.js"></script>

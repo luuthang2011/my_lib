@@ -22,7 +22,7 @@
         <input type="text" name="input2" id="input2" style="display: none" value="<?php include 'showinfo.php'; echo $code?>">
         <table>
             <tr>
-                <td><label>YEAR: </label></td>
+                <td><label>YEAR(CAN'T UPDATE): </label></td>
                 <td><input type="text" name="year" value="<?php include 'showinfo.php'; echo $year?>"></td>
             </tr>
             <tr>

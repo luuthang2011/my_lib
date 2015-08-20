@@ -13,7 +13,7 @@
         // encode
         $code = $_POST['input2'];
         // out endcode
-        $sql1 ="UPDATE books SET years='$year',bookName='$name',author='$author' WHERE bookID = '$code' ";
+        $sql1 ="UPDATE books SET bookName='$name',author='$author' WHERE bookID = '$code' ";
         $result1 = $conn->query($sql1);
         echo "Update completed !!";
     }
